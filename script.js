@@ -117,7 +117,6 @@ const addMap = () => {
     [50.97147135926861, 7.007670299883486],
   ];
   var streetOneCol = "#4746E0";
-  // var streetOneCol = "#ff0000";
 
   var firstPolyline = L.polyline(streetOnePointList, {
     color: streetOneCol,
@@ -134,7 +133,6 @@ const addMap = () => {
     [50.97394809689066, 7.012821076026798],
   ];
   var streetTwoCol = "#1095c1";
-  // var streetTwoCol = "#ff0000";
 
   var secondPolyline = L.polyline(streetTwoPointList, {
     color: streetTwoCol,
