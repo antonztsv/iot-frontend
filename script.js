@@ -6,11 +6,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     buildPage(data);
   }, 1000);
 
-  //   const data = await getStreetData();
-
-  //   clearPage();
-  //   buildPage(data);
-
   const refreshButton = document.querySelector("p");
   refreshButton.addEventListener("click", async function () {
     clearPage();
